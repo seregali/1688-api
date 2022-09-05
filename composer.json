@@ -1,0 +1,26 @@
+{
+    "name": "seregali/1688-api",
+    "type": "library",
+    "description": "Package for working with laonet api",
+    "keywords": ["1688","laonet"],
+    "homepage": "https://github.com/seregali/1688-api",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sergey Gavrilov",
+            "email": "gavrilov.srg@gmail.com",
+            "homepage": "https://github.com/seregali",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.4 || >=8.0",
+        "guzzlehttp/guzzle": "7.0",
+        "symfony/dotenv": "3.* || 4.* || 5.* || 6.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Laonet1688Api\\": "src/"
+        }
+    }
+}
