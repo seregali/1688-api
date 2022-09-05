@@ -1,5 +1,6 @@
 {
     "name": "seregali/1688-api",
+    "version": "1.0.0",
     "type": "library",
     "description": "Package for working with laonet api",
     "keywords": ["1688","laonet"],
